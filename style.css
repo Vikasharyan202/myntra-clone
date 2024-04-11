@@ -67,6 +67,13 @@ header{
   flex-direction: column;
   align-items: center;
   cursor: pointer;
+  position: relative;
+}
+.bag_item_count{
+  color: green;
+  position: absolute;
+  margin-left: 26px;
+  font-weight: 600;
 }
 
 /* Main section */
@@ -80,7 +87,7 @@ header{
   margin : 40px 0 20px;
   border-top: 2px solid whitesmoke;
 }
-.category_items{
+.category_items, .items_container{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -110,3 +117,44 @@ footer{
 }
 
 
+/* Main Section */
+.items_container{
+  width: 80%;
+  margin: 40px 10%;
+}
+.item_container{
+  width: 200px;
+}
+.item_image{
+  width: 100%;
+}
+.company_name{
+  font-weight: 600;
+}
+.item_name{
+  font-size: 14px;
+  margin-top: 6px;
+}
+.price{
+  margin-top: 10px;
+}
+.current_price{
+  font-weight: 600;
+  margin-right: 4px;
+}
+.original_price{
+  font-size: 14px;
+  text-decoration: line-through;
+  margin-right: 4px;
+}
+.discount{
+  color: red;
+}
+.item_btn{
+  background: lightgreen;
+  width: 90%;
+  border-radius: 4px;
+  cursor: pointer;
+  color: rgb(135, 109, 109);
+  font-size: 20px;
+}
