@@ -1,6 +1,6 @@
 let items = [
   {
-    itemId:1,
+    id:1,
     item_image : 'images/categories/1.jpg',
     rating:{
       stars:4.6,
@@ -10,10 +10,12 @@ let items = [
     item_name: "Rohan mazew fofe laken",
     current_price: 500,
     original_price: 900,
-    discount: 42
+    discount: 42,
+    return_period: 7,
+    delivery_date: 16
   },
   {
-    itemId:2,
+    id:2,
     item_image : 'images/categories/2.jpg',
     rating:{
       stars:4.8,
@@ -23,10 +25,12 @@ let items = [
     item_name: "Rohan mazew fofe laken",
     current_price: 400,
     original_price: 500,
-    discount: 40
+    discount: 40,
+    return_period: 7,
+    delivery_date: 15
   },
   {
-    itemId:3,
+    id:3,
     item_image : 'images/categories/3.jpg',
     rating:{
       stars:4.6,
@@ -36,10 +40,12 @@ let items = [
     item_name: "Rohan mazew fofe laken",
     current_price: 500,
     original_price: 900,
-    discount: 42
+    discount: 42,
+    return_period: 7,
+    delivery_date: 14
   },
   {
-    itemId:4,
+    id:4,
     item_image : 'images/categories/4.jpg',
     rating:{
       stars:4.6,
@@ -49,10 +55,12 @@ let items = [
     item_name: "Rohan mazew fofe laken",
     current_price: 500,
     original_price: 900,
-    discount: 42
+    discount: 42,
+    return_period: 7,
+    delivery_date: 18
   },
   {
-    itemId:5,
+    id:5,
     item_image : 'images/categories/5.jpg',
     rating:{
       stars:4.6,
@@ -62,10 +70,12 @@ let items = [
     item_name: "Rohan mazew fofe laken",
     current_price: 500,
     original_price: 900,
-    discount: 42
+    discount: 42,
+    return_period: 7,
+    delivery_date: 15
   },
   {
-    itemId:6,
+    id:6,
     item_image : 'images/categories/6.jpg',
     rating:{
       stars:4.6,
@@ -75,10 +85,12 @@ let items = [
     item_name: "Rohan mazew fofe laken",
     current_price: 500,
     original_price: 900,
-    discount: 42
+    discount: 42,
+    return_period: 7,
+    delivery_date: 12
   },
   {
-    itemId:7,
+    id:7,
     item_image : 'images/categories/7.jpg',
     rating:{
       stars:4.6,
@@ -88,10 +100,12 @@ let items = [
     item_name: "Rohan mazew fofe laken",
     current_price: 500,
     original_price: 900,
-    discount: 42
+    discount: 42,
+    return_period: 7,
+    delivery_date: 16
   },
   {
-    itemId:8,
+    id:8,
     item_image : 'images/categories/8.jpg',
     rating:{
       stars:4.6,
@@ -101,11 +115,13 @@ let items = [
     item_name: "Rohan mazew fofe laken",
     current_price: 500,
     original_price: 900,
-    discount: 42
+    discount: 42,
+    return_period: 7,
+    delivery_date: 20
   },
 
   {
-    itemId:9,
+    id:9,
     item_image : 'images/categories/9.jpg',
     rating:{
       stars:4.6,
@@ -115,6 +131,8 @@ let items = [
     item_name: "Rohan mazew fofe laken",
     current_price: 500,
     original_price: 900,
-    discount: 42
+    discount: 42,
+    return_period: 7,
+    delivery_date: 15
   },
 ];

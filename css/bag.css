@@ -1,0 +1,47 @@
+.bag_page{
+  display: flex;
+  justify-content: space-between;
+}
+.bag_items_container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px 4% 0;
+}
+.bag_item_container{
+  display: flex;
+  gap: 20%;
+  align-items: center;
+  /* justify-content: space-between; */
+  
+}
+.item_left_part{}
+.bag_item_img{
+  height: 300px;
+}
+.item_right_part{}
+.company{}
+.product_name{}
+.price_container{}
+.current_price{}
+.original_price{}
+.discount{}
+.return{}
+.delivery{}
+.remove_from_cart{}
+
+/* Bag Summary */
+
+.bag_summary{
+  
+}
+.bag_details_container{}
+.price_header{}
+.price_item{}
+.price_item_tag{}
+.price_item_value{}
+.price_footer{}
+.price_item_tag{}
+.price_item_value{}
+.btn_place_orger{}
+.btn_name{}

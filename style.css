@@ -112,6 +112,14 @@ footer{
   display: flex;
   flex-direction: column;
 }
+.footer_item p{
+  font-weight: 600;
+}
+.footer_item a{
+  color: rgb(40, 38, 38);
+  margin-top: 4px;
+  text-decoration: none;
+}
 .copyright{
   text-align: center;
 }

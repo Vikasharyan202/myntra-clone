@@ -1,14 +1,17 @@
-let bagItems = [];
+let bagItems;
 
 onLoad();
 // This onLoad() is the method where all the function are placed
 function onLoad(){
+  let bagItemsStr = localStorage.getItem('bagItems');
+  bagItems = bagItemsStr ? JSON.parse(bagItemsStr) : [];
   displayItemsToHomePage();
   displayBagItemCount();
 }
 
 function addToBag(itemId){
   bagItems.push(itemId);
+  localStorage.setItem('bagItems', JSON.stringify(bagItems));
   displayBagItemCount();
 }
 
@@ -25,10 +28,12 @@ function displayBagItemCount(){
 
 function displayItemsToHomePage() {
 	let itemsContainerElement = document.querySelector(".items_container");
-
+  if(!itemsContainerElement){
+    return;
+  }
 	let innerHtml = "";
 
-	items.forEach((item) => {
+	items.forEach(item => {
 		innerHtml += `
   <div class="item_container">
   <img src="${item.item_image}" class="item_image">
@@ -42,7 +47,7 @@ function displayItemsToHomePage() {
     <span class="original_price">RS ${item.original_price}</span>
     <span class="discount">(${item.discount}% Off)</span>
   </div>
-  <button onclick="addToBag(${item.itemId})" class="item_btn">Add to Bag</button>
+  <button onclick="addToBag(${item.id})" class="item_btn">Add to Bag</button>
   </div>
   `;
 	});

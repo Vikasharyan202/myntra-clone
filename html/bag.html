@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Myntra Clone</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Bag for items</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/css/bag.css">
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 </head>
-
 <body>
   <header>
     <div class="logo_container">
-      <a href="#"><img src="images/logo.webp" class="myntra_logo"></a>
+      <a href="/index.html"><img src="/images/logo.webp" class="myntra_logo"></a>
     </div>
     <div class="nav_bar">
       <a href="#">Man</a>
@@ -36,17 +35,22 @@
         <span>Wishlist</span>
       </div>
       <div class="action_container">
-        <a href="html/bag.html"><span class="material-symbols-outlined">shopping_bag</span></a>
+        <span class="material-symbols-outlined">shopping_bag</span>
         <span>Bag</span>
         <span class="bag_item_count">0</span>
       </div>
     </div>
   </header>
+
   <main>
-    <div class="items_container">
-      <img src="images/categories/1.jpg" alt="">
+    <div class="bag_page">
+      <div class="bag_items_container">  
+      </div>
+      <div class="bag_summary">
+      </div>
     </div>
   </main>
+
   <footer>
     <div class="footer_content">
       <div class="footer_item">
@@ -80,8 +84,9 @@
     </div>
     <p class="copyright">© 2024 Myntra : All rights reserved</p>
   </footer>
-  <script src="scripts/items.js"></script>
-  <script src="scripts/index.js"></script>
-</body>
 
+  <script src="/scripts/items.js"></script>
+  <script src="/scripts/index.js"></script>
+  <script src="/scripts/bag.js"></script>
+</body>
 </html>
